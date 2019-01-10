@@ -1,0 +1,8 @@
+---
+- name: Install_VRA
+  hosts: localhost
+  gather_facts: True
+  vars:
+    # dst_ova_path: '/home/localadmin/OVAs'
+  tasks:
+    - include_tasks: "tasks/main.yml"
